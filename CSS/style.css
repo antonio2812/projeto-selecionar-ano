@@ -1,0 +1,26 @@
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px ;
+}
+
+.container #ano {
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container #ano:hover {
+    background-color: #acacac;
+}
+
+.container #ano option {
+    background-color: #fff;
+}
